@@ -1,0 +1,19 @@
+{
+  "name": "mirror-sdk",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "react-tweet": "^3",
+    "slug": "^9",
+    "validator": "^13",
+    "chardet": "^2.0.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "@types/slug": "^5",
+    "typescript": "^5.0.0"
+  }
+}
